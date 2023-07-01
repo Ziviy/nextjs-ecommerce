@@ -1,5 +1,5 @@
 import './globals.css';
-import { Navbar, Footer} from './components';
+import { Navbar, Footer } from './components';
 
 
 export default function RootLayout({
@@ -8,10 +8,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <>
+    <body className='flex flex-col h-screen bg-backgroundColor text-lg mt-0'>
       <Navbar />
-      <body >{children}</body>
+      <div>
+        {children}
+      </div>
       <Footer />
-    </>
+    </body>
   )
 }
