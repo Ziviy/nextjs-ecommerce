@@ -27,17 +27,25 @@ body {
     rgb(var(--background-start-rgb));
 } */
 
-.MAIN {
-  margin-left: 25%;
-  margin-right: 25%;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.NAVBAR {
-  padding-left: 25%;
-  padding-right: 25%;
+@media (min-width: 768px) {
+  .CONTAINER {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
 
-.FOOTER {
-  padding-left: 25%;
-  padding-right: 25%;
+@media (min-width: 1024px) {
+  .CONTAINER {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+.CONTAINER {
+  padding: 10px;
 }
