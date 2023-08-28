@@ -17,6 +17,7 @@ const Navbar = () => {
             <div className='CONTAINER flex space-x-5 justify-between lg:py-5 md:py-2'>
                 <div className='left-side flex flex-row gap-5'>
                     <div>
+                    <span className="material-icons" style={"font-size: 48px;"}>face</span>
                         <button className="material-icons-outlined">
                         <i className="account_cirlce"></i>
                         </button>
